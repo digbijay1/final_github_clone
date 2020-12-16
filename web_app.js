@@ -7,7 +7,7 @@ function myFunction() {
 async function loadUser(user_entering_value) {
     //for giving authorized to github
     const headers = {
-        "Authorization": `token 28b06f4704c8d613e8ffe83739d94854c10c1c65`,
+        "Authorization": `token 585dd4033674b97b80063efd6f38fb19bc8528c6`,
     }
     document.getElementById('newsBody').innerHTML = ''
     try {
@@ -49,7 +49,7 @@ async function loadUser(user_entering_value) {
 
             async function loadUser2(user_entering_value, files_of_the_particular_user) {
                 const headers = {
-                    "Authorization": `token 28b06f4704c8d613e8ffe83739d94854c10c1c65`,
+                    "Authorization": `token 585dd4033674b97b80063efd6f38fb19bc8528c6`,
                 }
 
                 try {
